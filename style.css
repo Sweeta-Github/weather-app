@@ -1,0 +1,52 @@
+.continer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-image: url("continer-background.jpg");
+    background-size: cover;
+    box-shadow: gray;
+    margin-bottom: 50px 70px;
+    border: 50px 50px solid white;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+}
+.search-box{
+    background: white;
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+.search-button{
+    background: #325aa8;
+    width: 15%;
+    height: 40px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.city{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    text-align:left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+footer{
+    text-align: center;
+    border-top:1px solid rgba(0, 0, 0, 0.1); ;
+    margin-top: 0px;
+    margin-top: 100px;
+    padding-top:20px ;
+
+}
