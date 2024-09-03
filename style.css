@@ -1,11 +1,17 @@
+body{
+    background: #325aa8;
+}
+
+
 .continer{
     display: block;
     justify-content: center;
     text-align: center;
     background-image: url("continer-background.jpg");
     background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.4);
-    margin-bottom: 50px 70px;
+    box-shadow: #fff;
+    margin-top: 80px;
+    margin-left: 20%;
     border: 50px 50px solid white;
     width: 600px;
     height: 400px;
@@ -25,6 +31,13 @@
     color: #fff;
     border: none;
     border-radius: 3px;
+    transition:  all 1s ease-in-out;
+    cursor: pointer;
+}
+.search-button:hover{
+background: white;
+color: #325aa8;
+
 }
 
 .city{
